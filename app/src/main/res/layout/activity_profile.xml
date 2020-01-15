@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="Views.ProfileActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/personimage"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="4dp"
+        />
+
+
+    <TextView
+        android:id="@+id/profile_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:background="@drawable/background"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorAccent"
+        />
+
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:background="@drawable/background"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/google_signout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:text="Sign Out"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        />
+
+
+
+
+</LinearLayout>
